@@ -6,10 +6,10 @@ import './App.css';
 import CustomNavBar from './components/CustomNavBar';
 // import BarChart from './components/BarChart';
 // import DoughnutChart from './components/DoughnutChart';
-import DashboardBlock from './components/DashboardBlock';
-import CastRulesTable from './components/CastRulesTable';
-import KeyFigures from './components/KeyFigures';
-import { FetchC02EmissionData, DataPoint } from './api/FetchData';
+// import DashboardBlock from './components/DashboardBlock';
+// import CastRulesTable from './components/CastRulesTable';
+// import KeyFigures from './components/KeyFigures';
+// import { FetchC02EmissionData, DataPoint } from './api/FetchData';
 
 
 interface AppProps { }
