@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  frontend:
+    container_name: react-app
+    build: ../it-carbon-footprint-frontend/
+    command: npm start
+    volumes:
+      - ../it-carbon-footprint-frontend/:/frontend_code
+      - nodemodules:/frontend_code/node_modules
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV : "development"
+      CHOKIDAR_USEPOLLING: "true"
+
+  backend:
+    container_name: fastapi-app
+    build: ./
+    # command: uvicorn main:app --reload
+    volumes:
+      - ./:/backend_code
+    ports:
+      - "8000:8000"
+
+volumes:
+    nodemodules: {}
