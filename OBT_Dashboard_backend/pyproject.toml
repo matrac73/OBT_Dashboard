@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "it-carbon-footprint-backend"
+name = "OBT_Dashboard_backend"
 version = "0.1.0"
 description = ""
-authors = ["Timothé Chaumont <timothee.chaumont@student-cs.fr>"]
+authors = ["Mathieu Ract <mathieu.ract@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
