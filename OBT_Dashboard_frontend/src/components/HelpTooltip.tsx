@@ -2,14 +2,10 @@ import React from 'react';
 import { Tooltip, OverlayTrigger } from 'react-bootstrap';
 import { QuestionCircleFill } from 'react-bootstrap-icons';
 
-
 type TooltipProps = {
     helpText: string,
 }
 
-/**
- * Tooltip that displays when hovering over a question mark
- */
 class HelpTooltip extends React.Component<TooltipProps> {
 
     render() {

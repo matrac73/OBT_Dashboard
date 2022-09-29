@@ -2,8 +2,6 @@ import React from 'react';
 import { Container, Row, Col, Spinner } from 'react-bootstrap';
 
 import '../App.css';
-// import BarChart from './BarChart';
-// import DoughnutChart from './DoughnutChart';
 import DashboardBlock from './DashboardBlock';
 import CastRulesTable from './CastRulesTable';
 import KeyFigures from './KeyFigures';
