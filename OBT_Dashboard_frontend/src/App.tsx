@@ -8,7 +8,6 @@ import CustomNavBar from './components/CustomNavBar';
 interface AppProps { }
 
 class App extends React.Component<AppProps> {
-
   render() {
     return (
       <Container fluid className="m-0 p-0 bg-light w-100 h-100" >

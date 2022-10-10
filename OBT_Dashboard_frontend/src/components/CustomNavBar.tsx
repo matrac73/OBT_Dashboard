@@ -10,7 +10,7 @@ class CustomNavBar extends React.Component {
         return (
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="/"><img src="/Logo.png" height={25} /> Oranisation Belt Toolkit (demo)</Navbar.Brand>
+                    <Navbar.Brand href="/"><img src="/Logo.png" height={25} /> Organisation Belt Toolkit (demo)</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href={require("./OBT_report.pdf")} download="OBT_report">Export</Nav.Link>
                         {/* <Nav.Link href="#home">Settings</Nav.Link> */}

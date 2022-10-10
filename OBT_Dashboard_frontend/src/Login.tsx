@@ -1,7 +1,6 @@
 import React from 'react';
 import {Form, Button, Container, Card, Navbar, Nav} from 'react-bootstrap';
 
-
 class Login extends React.Component<any> {
     constructor(props: any) {
         super(props);
@@ -9,8 +8,8 @@ class Login extends React.Component<any> {
 
     render() {
         return (
-            <Container>
-
+            <Container className="">
+                
                 <Navbar bg="dark" variant="dark">
                     <Container>
                         <Navbar.Brand href="#home"><img src="Logo.png" height={25} /> Organisation Belt Toolkit (demo)</Navbar.Brand>
